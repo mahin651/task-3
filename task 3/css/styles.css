@@ -281,7 +281,18 @@ border: 2px solid var(--color-headings);
   top: -6px;
   right: 5%;
 }
-
+.media{
+  display: flex;
+}
+.media__title{
+  margin-top: 0;
+}
+.media__body{
+  padding: 0 2rem;
+}
+.media__image{
+  margin-top: 1rem;
+}
 @media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
