@@ -289,6 +289,7 @@ border: 2px solid var(--color-headings);
 }
 .media__title{
   margin-top: 0;
+  color: #fff;
 }
 .media__body{
   padding: 0 2rem;
@@ -360,10 +361,15 @@ border: 2px solid var(--color-headings);
 .block__header {
   text-align: center;
   margin-bottom: 4rem;
+ 
+  
+  
 }
 
 .block__heading {
   margin-top: 0;
+  
+
 }
 
 .block--dark {
@@ -435,6 +441,7 @@ border: 2px solid var(--color-headings);
 .footer__heading {
   text-transform: uppercase;
   font-weight: 600;
+  color: #fff;
 }
 
 .footer__brand {
@@ -511,7 +518,9 @@ border: 2px solid var(--color-headings);
     margin: 0 2rem;
   }
 }
-
+.user{
+  color: #fff;
+}
 @media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
