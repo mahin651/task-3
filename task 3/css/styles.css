@@ -358,6 +358,7 @@ border: 2px solid var(--color-headings);
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .block__heading {
