@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -29,13 +30,13 @@
       
     </header>
     <section class="block block--dark block--skewed-left hero">
-      <div class="container grid grid--1x2">
-        <header class="block__header hero__content">
+      <div class="container grid grid--1X2">
+        <header class="block__header hero__content" data-aos="fade-right">
           <h1 class="block__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">Deploy your websites in less than 60 seconds.</p>
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <picture>
+        <picture  data-aos="fade-left">
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -48,8 +49,8 @@
         </picture>
       </div>
     </section>
-    <section class="block container block-domain">
-      <header class="block__header">
+    <section class="block container block-domain" data-aos="fade-away">
+      <header class="block__header" >
         <h2>Starting at $9 per month</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, consequuntur!</p>
         
@@ -69,8 +70,8 @@
         <li>.xyz $10</li>
       </ul>
     </section>
-    <section class="block container block-plans">
-      <div class="grid grid--1x3">
+    <section class="block container block-plans" data-aos="fade-away">
+      <div class="grid grid--1X3">
         <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
@@ -111,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="plan">
+        <div class="plan" >
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">Entry</h3>
@@ -141,8 +142,8 @@
           voluptatem.
         </p>
       </header>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+      <article class="grid grid--1X2 feature">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#easy"></use>
@@ -155,7 +156,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture  data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
@@ -167,8 +168,8 @@
           <img class="feature__image" src="images/easy@2x.jpg" alt="" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+      <article class="grid grid--1X2 feature">
+        <div class="feature__content"data-aos="fade-left">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#computer"></use>
@@ -181,7 +182,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="fade-right">
           <source
             type="image/webp"
             srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
@@ -193,8 +194,8 @@
           <img class="feature__image" src="images/fast@2x.jpg" alt="" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+      <article class="grid grid--1X2 feature">
+        <div class="feature__content"  data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -207,7 +208,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture  data-aos="fade-left">
           <source
             type="image/webp"
             srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
@@ -219,8 +220,8 @@
           <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+      <article class="grid grid--1X2 feature">
+        <div class="feature__content"  data-aos="fade-left">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#clock"></use>
@@ -233,7 +234,7 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture  data-aos="fade-right">
           <source
             type="image/webp"
             srcset="images/support.webp 1x, images/support@2x.webp 2x"
@@ -251,7 +252,7 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
+        <picture class="block-showcase__image" data-aos="fade-right">
           <source
             type="image/webp"
             srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
@@ -270,7 +271,7 @@
                   <use xlink:href="images/sprite.svg#snap"></use>
                 </svg>
               </div>
-              <div class="media__body">
+              <div class="media__body" data-aos="fade-bottom">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -317,16 +318,16 @@
         </ul>
       </div>
     </section>
-    <section class="block">
+    <section class="block"  data-aos="fade-bottom">
       <header class="block__header">
         <h2>What our Customers are Saying</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
         </p>
       </header>
-      <div class="container">
+      <div class="container" >
         <div class="card testimonial">
-          <div class="grid grid--1x2">
+          <div class="grid grid--1X2">
             <div class="testimonial__image">
               <img
                 src="images/testimonial.jpg"
@@ -442,11 +443,15 @@
         </section>
         <section class="footer__brand">
           <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mahin Mittal</p>
+          <p class="footer__copyright">Copyright 2022 Mahin Mittal</p>
         </section>
       </div>
     </footer>
 
    <script src="js/main.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
