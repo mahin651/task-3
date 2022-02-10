@@ -187,6 +187,7 @@ a {
 
 .icon--white {
   fill: #fff;
+
 }
 
 .icon-container {
@@ -716,6 +717,7 @@ a {
     font-size: 1.6rem;
     max-height: 100%;
     opacity: 1;
+   text-align: center;
   }
 
   .nav__item {
