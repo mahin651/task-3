@@ -194,7 +194,11 @@ a {
 
 }
 
-
+@media screen  and (min-width:768px) {
+  .icon--top{
+    display: none;
+  }
+}
 .icon-container {
   background: #f3f9fa;
   width: 64px;
